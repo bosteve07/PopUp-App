@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.popOver{
+    display: none;
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+    z-index: 1;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.popOver.active{
+    display: block ;
+
+}
+.btn{
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+.btn{
+    background-color: #303f9f;
+
+
+}
